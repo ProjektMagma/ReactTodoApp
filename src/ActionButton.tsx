@@ -3,7 +3,7 @@ type ActionButtonProps = {
     onClick: () => void
 }
 
-function ActionButton(
+export default function ActionButton(
     {text, onClick}: ActionButtonProps
 ) {
     return (
@@ -13,7 +13,4 @@ function ActionButton(
                value={text}
         />
     )
-
 }
-
-export default ActionButton

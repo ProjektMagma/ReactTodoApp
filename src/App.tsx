@@ -1,11 +1,9 @@
 import './App.css'
-import './OnboardingSite.tsx'
-import OnboardingSite from "./OnboardingSite.tsx";
+import MainView from "./MainView.tsx";
 
-function App() {
+export default function App() {
     return (
-        <OnboardingSite></OnboardingSite>
+        <MainView/>
     )
 }
 
-export default App
